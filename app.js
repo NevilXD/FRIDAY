@@ -23,7 +23,7 @@ fridayComs.push("news");
 function weather(location) {
     const weatherCont = document.querySelector(".temp").querySelectorAll("*");
     let loc = location;
-    let url = `http://api.openweathermap.org/data/2.5/weather?q=${loc}&appid=e1b7c51e943a031517bdd599f4c7e459`;
+    let url = `http://api.openweathermap.org/data/2.5/weather?q=${loc}&appid=48ddfe8c9cf29f95b7d0e54d6e171008`;
     const xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
     xhr.onload = function () {
