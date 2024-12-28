@@ -188,3 +188,20 @@ input{
 #start_friday_btn img{
     height: 300px;
 }
+
+@media screen and (max-width: 768px) {
+    input{
+        width: 100%;
+    }
+    
+    .cont{
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .battery, .clock, .internet{
+        width: auto;
+        height: auto;
+    }
+}
