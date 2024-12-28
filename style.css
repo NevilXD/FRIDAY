@@ -204,4 +204,23 @@ input{
         width: auto;
         height: auto;
     }
+    
+    #heart, #iron_man {
+        position: absolute;
+        bottom: 10px;
+    }
+
+    #heart {
+        left: 5px;
+        width: 15vw;
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    #iron_man {
+        right: 5px;
+        width: 15vw;
+        max-width: 80px;
+        max-height: 80px;
+    }
 }
